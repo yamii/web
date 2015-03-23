@@ -35,6 +35,13 @@ server.route( [
 		'handler' : function ( request, reply ) {
 			return reply( 'Hello World version 4' );
 		}
+	},
+	{
+		'method' : 'GET',
+		'path' : '/v5/hello',
+		'handler' : function ( request, reply ) {
+			return reply( 'Hello World version 5' );
+		}
 	}
 ] );
 
