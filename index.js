@@ -47,7 +47,7 @@ server.route( [
 		'method' : 'GET',
 		'path' : '/v1/world',
 		'handler' : function ( request, reply ) {
-			return reply( 'World Tour!!!' );
+			return reply( 'World Tour Yey!!!' );
 		}
 	}
 ] );
