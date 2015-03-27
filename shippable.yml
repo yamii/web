@@ -1,9 +1,9 @@
-build_image: yamii/web
+build_image: shipimg/ubuntu1204_nodejs
 
 #language setting
 language: node_js
 node_js:
-  -0.10.35
+  - 0.10.35
 
 before_install:
   - npm install
