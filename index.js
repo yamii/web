@@ -58,5 +58,5 @@ server.start( function ( error ) {
 		throw error;
 	}
 
-	console.log( 'Server started' );
+	console.log( 'Server started ' + server.info.uri );
 } );
