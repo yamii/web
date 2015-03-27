@@ -1,4 +1,5 @@
 build_image: shipimg/ubuntu1204_nodejs
+commit_container: yamii/web
 
 #language setting
 language: node_js
