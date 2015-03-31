@@ -1,4 +1,4 @@
-build_image: yamii/web
+build_image: yamii/web:pom
 
 #language setting
 language: node_js
