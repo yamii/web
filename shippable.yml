@@ -1,5 +1,5 @@
 build_image: yamii/web:pom
-commit_container: yamii/web:pomext
+commit_container: yamii/webpomext
 
 #language setting
 language: node_js
