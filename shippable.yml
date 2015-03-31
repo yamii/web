@@ -8,7 +8,21 @@ node_js:
 before_install:
   - npm install
 
+
+# The path for Xunit to output test reports
+env:
+  - XUNIT_FILE=shippable/testresults/result.xml
+
+# Create directories for test and coverage reports
+before_script:
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
+
 script:
   - npm test
 
 archive: true
+
+#after_success:
+
+#after_failure:
