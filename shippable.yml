@@ -27,6 +27,9 @@ script:
 
 archive: true
 
+after_script:
+  - ./node_modules/.bin/mocha -R xunit ./test > shippable/testresults/result.xml
+
 #after_success:
 
 #after_failure:
