@@ -3,6 +3,7 @@
 var Hapi = require( 'hapi' );
 var server = new Hapi.Server();
 
+console.log( 'testing' );
 server.connection( {
 	'port' : 9898
 } );
