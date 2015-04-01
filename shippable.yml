@@ -1,4 +1,4 @@
-build_image: yamii/web:pom
+build_image: yamii/webb:pom
 # build_image: shipimg/ubuntu1204_nodejs:latest
 #language setting
 language: node_js
