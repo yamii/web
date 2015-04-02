@@ -9,7 +9,7 @@ require( 'should' );
 		x.should.equal( 0 );
 	} );
 
-	it ( 'should be editing test', function () {
+	it ( 'should be running test', function () {
 		var x = 0;
 		x.should.equal( 0 );
 	} );
