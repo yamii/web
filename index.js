@@ -23,5 +23,6 @@ server.start( function ( error ) {
 		throw error;
 	}
 
+	console.log( 'One two three Song Joong ki' );
 	console.log( 'Server started' );
 } );
